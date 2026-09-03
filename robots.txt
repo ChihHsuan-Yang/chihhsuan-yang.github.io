@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /Bella/
+Allow: /
 
-Sitemap: https://chihhsuan-yang.github.io/Bella/sitemap.xml
+Sitemap: https://chihhsuan-yang.github.io/sitemap.xml
