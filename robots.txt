@@ -1,4 +1,14 @@
+# https://chihhsuan-yang.github.io/ — Chih-Hsuan (Bella) Yang
 User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
 Allow: /
 
 Sitemap: https://chihhsuan-yang.github.io/sitemap.xml
