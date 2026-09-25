@@ -217,9 +217,13 @@ def submit_indexnow(dry_run=False):
         body=json.dumps(payload).encode("utf-8"),
         headers={"Content-Type": "application/json; charset=utf-8"},
     )
+    # Measured against Bing on 2026-09-25, repeated 3x with stable results:
+    # a valid key returns 200 and an invalid one returns 202. So 202 is not
+    # simply "accepted" — on an endpoint that distinguishes them it means the
+    # key has not been confirmed yet, and a persistent 202 is worth a look.
     meaning = {
-        200: "received",
-        202: "received, key validation pending",
+        200: "received, key validated",
+        202: "received, key validation PENDING (not yet confirmed)",
         400: "invalid format",
         403: "key not valid (file missing or content mismatch)",
         422: "URLs do not belong to this host, or key/schema mismatch",
@@ -229,6 +233,9 @@ def submit_indexnow(dry_run=False):
     print(f"  {tag} POST {INDEXNOW_ENDPOINT} -> HTTP {status} ({meaning})")
     if body.strip():
         print(f"       body: {body.strip()[:200]}")
+    if status == 202:
+        print("       202 is deferred, not confirmed. Re-run to check it "
+              "settles to 200 once the key file has been fetched.")
     print(f"  {len(URLS)} URLs submitted; shared with Bing, Yandex, Seznam, "
           "Naver, Yep, Amazon.")
     print("  Google does not participate in IndexNow — this does not reach Google.")
