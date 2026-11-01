@@ -1,0 +1,41 @@
+Chih-Hsuan (Bella) Yang
+Applied AI Research and Engineering
+bellayang@anl.gov (mailto:bellayang@anl.gov)  |  chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
+GitHub (https://github.com/ChihHsuan-Yang)  |  Hugging Face (https://huggingface.co/ChihHsuan-Yang)  |  Google Scholar (https://scholar.google.com/citations?user=s7RDC3YAAAAJ)  |  AgentsSci (https://huggingface.co/AgentsSci)  |  LinkedIn (https://www.linkedin.com/in/chih-hsuan-yang-isu/)
+Postdoctoral researcher at Argonne building and evaluating large language model (LLM) agents. Expertise in reproducible harnesses, multi-agent systems, preference-based post-training, and agentic AI for Science.
+
+Technical Skills
+Python, PyTorch, Hugging Face, NumPy, pandas, pytest, Git. Agent evaluation, trace analysis, preference and reward modeling, reinforcement learning from human feedback (RLHF), and cost-aware inference.
+
+Research and Industry Experience
+
+Postdoctoral Researcher, Argonne National Laboratory | Jul 2025 - Present
+- Build research harnesses for matched agent evaluation, trace analysis, and reproducible code and data.
+- Mentor four students and coordinate collaborations from experimental design through papers and public releases.
+
+Visiting Scientist, Corteva Agriscience | Sep 2024 - Jan 2025
+- Trained preference models from scratch using experimental outcomes to ground rewards; incorporated scientist preferences when judgments were uncertain.
+- Adapted multiple language models with Direct Preference Optimization (DPO) and Proximal Policy Optimization (PPO).
+
+AI Resident, X, Google LLC | Sep - Dec 2023
+- Developed stakeholder-based multi-agent LLM frameworks; studied information flow, coordination, communication, and bidding.
+
+AI Graduate Researcher, Iowa State University | Jan 2020 - Jun 2025
+- Co-led BioTrove and developed molecular language modeling and multi-fidelity methods for scientific discovery.
+
+Selected Publications
+
+Precise but Uncoupled (https://chihhsuan-yang.github.io/NeurIPS26_Precise-but-Uncoupled/) | 2026
+First author. NeurIPS Main Track, accepted.
+
+Cost-Aware Protocol Routing (https://aclanthology.org/2026.findings-emnlp.1275/) | 2026
+First author. Findings of EMNLP, published.
+
+BioTrove (https://baskargroup.github.io/BioTrove/) | 2024
+First author. NeurIPS Datasets and Benchmarks, Spotlight.
+
+Education
+Ph.D., Mechanical Engineering, Iowa State University | 2025
+Co-major in Computer Engineering; minor in Applied Mathematics.
+M.S., Computer Science, Iowa State University | 2025
+B.S., Bioenvironmental Systems Engineering, National Taiwan University | 2019
