@@ -2,7 +2,7 @@ Chih-Hsuan (Bella) Yang
 LLM Agents and Multi Agent Systems
 bellayang@anl.gov (mailto:bellayang@anl.gov)  |  chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
 GitHub (https://github.com/ChihHsuan-Yang)  |  Hugging Face (https://huggingface.co/ChihHsuan-Yang)  |  Google Scholar (https://scholar.google.com/citations?user=s7RDC3YAAAAJ)  |  AgentsSci (https://huggingface.co/AgentsSci)  |  LinkedIn (https://www.linkedin.com/in/chih-hsuan-yang-isu/)
-Postdoctoral researcher at Argonne working on reliable large language model (LLM) agents and multi-agent systems. First author of accepted NeurIPS 2026 main-track and Findings of EMNLP 2026 papers; co-first author of BioTrove (NeurIPS 2024 Spotlight). Focuses on agent harnesses, evaluation, feedback, memory, and agentic AI for Science.
+Postdoctoral researcher at Argonne working on reliable large language model (LLM) agents and multi-agent systems. First author of accepted NeurIPS 2026 main-track and Findings of EMNLP 2026 papers; first author of BioTrove (NeurIPS 2024 Spotlight). Focuses on agent harnesses, evaluation, feedback, memory, and agentic AI for Science.
 
 Research and Technical Skills
 Research: Agent harnesses, multi-agent reasoning and evaluation, protocol routing, memory, preference and reward modeling, reinforcement learning from human feedback (RLHF), DPO, PPO.
@@ -42,7 +42,7 @@ First author. Findings of EMNLP 2026.
 Audits the gap between predicting failure and choosing a cost-effective collaboration protocol, using matched four-protocol evaluations and two solver families.
 
 BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity (https://proceedings.neurips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html)
-Co-first author. NeurIPS 2024 Datasets and Benchmarks, Spotlight.
+First author. NeurIPS 2024 Datasets and Benchmarks, Spotlight.
 Research-grade biodiversity data, vision-language models, and zero-shot evaluation across species, life stages, and taxonomic levels.
 
 MolGen-Transformer: A Molecule Language Model for the Generation and Latent Space Exploration of Organic Molecules (https://doi.org/10.1016/j.commatsci.2026.114549)
@@ -55,10 +55,10 @@ Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Mess
 First author. Submitted to AAAI 2027, under review. Public preprint.
 
 Beyond Division of Labor: How Roles Shape Feedback and Recovery in Multi-Agent Systems (https://chihhsuan-yang.github.io/AAMAS2027-AgentProtocols/)
-Co-first and corresponding author. Submitted to AAMAS 2027, under review.
+First and corresponding author. Submitted to AAMAS 2027, under review.
 
 What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory (https://chihhsuan-yang.github.io/AAMAS2027-ConditionalMemory/)
-Co-first and corresponding author. Submitted to AAMAS 2027, under review.
+First and corresponding author. Submitted to AAMAS 2027, under review.
 
 Education
 Ph.D., Mechanical Engineering - Iowa State University, 2025
