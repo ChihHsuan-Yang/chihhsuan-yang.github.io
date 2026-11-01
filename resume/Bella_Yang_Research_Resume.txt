@@ -1,68 +1,71 @@
 Chih-Hsuan (Bella) Yang
-LLM Agents and Multi Agent Systems
+LLM Agents, Agentic Evaluation and Preference Learning
 bellayang@anl.gov (mailto:bellayang@anl.gov)  |  chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
 GitHub (https://github.com/ChihHsuan-Yang)  |  Hugging Face (https://huggingface.co/ChihHsuan-Yang)  |  Google Scholar (https://scholar.google.com/citations?user=s7RDC3YAAAAJ)  |  AgentsSci (https://huggingface.co/AgentsSci)  |  LinkedIn (https://www.linkedin.com/in/chih-hsuan-yang-isu/)
-Postdoctoral researcher at Argonne working on reliable large language model (LLM) agents and multi-agent systems. First author of accepted NeurIPS 2026 main-track and Findings of EMNLP 2026 papers; first author of BioTrove (NeurIPS 2024 Spotlight). Focuses on agent harnesses, evaluation, feedback, memory, and agentic AI for Science.
+Postdoctoral researcher at Argonne National Laboratory studying multi-agent LLM systems, agentic evaluation, and AI for Science. Research combines protocol harnesses, trajectory-level diagnostics, and controlled memory studies with prior hands-on preference-model training and DPO/PPO experience.
 
-Research and Technical Skills
-Research: Agent harnesses, multi-agent reasoning and evaluation, protocol routing, memory, preference and reward modeling, reinforcement learning from human feedback (RLHF), DPO, PPO.
-Implementation: Python, PyTorch, Hugging Face, NumPy, pandas, scikit-learn, pytest, Git; reproducible benchmark and trace-analysis workflows; HPC experimentation.
-
-Research Experience
-
-Argonne National Laboratory
-Postdoctoral Researcher  |  Jul 2025 - Present
-- Lead research on reliable, efficient LLM-agent collaboration for scientific reasoning, connecting experimental design, protocol execution, trace analysis, and public research artifacts.
-- Study when reviewer feedback changes a solver's answer and when additional collaboration is worth its inference cost. First-author studies compare matched reasoning protocols, including a 4,181-problem primary math benchmark and cross-benchmark robustness checks.
-- Mentor four students and coordinate research collaborations, guiding research questions, experiments, manuscripts, and reproducible code and data releases.
-
-Corteva Agriscience
-Visiting Scientist  |  Sep 2024 - Jan 2025
-- Trained preference models from scratch, using real experimental outcomes to ground reward signals; incorporated scientist preferences for uncertain model judgments.
-- Adapted multiple language models with Direct Preference Optimization (DPO) and Proximal Policy Optimization (PPO) for domain-specific needs.
-
-X, Google LLC
-AI Resident  |  Sep - Dec 2023
-- Developed multi-agent LLM frameworks representing stakeholders with different interests; investigated information flow, agent coordination and communication, and bidding mechanisms.
-
-Iowa State University
-AI Graduate Researcher  |  Jan 2020 - Jun 2025
-- Co-led BioTrove, a research-grade biodiversity image and vision-language data effort. The resulting dataset contains 161.9 million images spanning approximately 366,600 species; the paper received a NeurIPS 2024 Spotlight.
-- Developed molecular language modeling and multi-fidelity methods for materials discovery, alongside research in neural PDE solvers and scientific machine learning.
-
-
-Selected Accepted Publications
+Research Contributions and Accepted Publications
 
 Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning (https://chihhsuan-yang.github.io/NeurIPS26_Precise-but-Uncoupled/)
-First author. NeurIPS 2026 main track, accepted.
-Separates reviewer error detection from critique uptake and verified repair, showing why precise review alone does not ensure better final answers.
+First author. NeurIPS Main Track, accepted. | 2026
+Designed controlled analyses separating reviewer error detection, a solver's response to critique, and verified answer repair. Identified why accurate review alone need not improve final outcomes, informing agent feedback design.
+Paper and project (https://chihhsuan-yang.github.io/NeurIPS26_Precise-but-Uncoupled/)  |  Code (https://github.com/ChihHsuan-Yang/NeurIPS26_Precise-but-Uncoupled)  |  Data (https://huggingface.co/datasets/AgentsSci/NeurIPS26_Precise-but-Uncoupled)
 
 LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks (https://aclanthology.org/2026.findings-emnlp.1275/)
-First author. Findings of EMNLP 2026.
-Audits the gap between predicting failure and choosing a cost-effective collaboration protocol, using matched four-protocol evaluations and two solver families.
+First author. Findings of EMNLP, published. | 2026
+Compared four reasoning protocols on 4,181 math problems, with checks across scientific reasoning tasks and two solver families. Evaluated supervised routing, held-out generalization, confidence calibration, and inference quality-cost trade-offs; distinguished failure prediction from protocol-specific value.
+Paper (https://aclanthology.org/2026.findings-emnlp.1275/)  |  Code (https://github.com/ChihHsuan-Yang/EMNLP_Cost-Aware-Protocol-Routing)  |  Data and router (https://chihhsuan-yang.github.io/EMNLP_Cost-Aware-Protocol-Routing/)
 
 BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity (https://proceedings.neurips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html)
-First author. NeurIPS 2024 Datasets and Benchmarks, Spotlight.
-Research-grade biodiversity data, vision-language models, and zero-shot evaluation across species, life stages, and taxonomic levels.
+First author. NeurIPS Datasets and Benchmarks, Spotlight. | 2024
+Co-led a scientific data effort yielding 161.9 million research-grade images across approximately 366,600 species, with vision-language models and zero-shot biodiversity benchmarks.
 
 MolGen-Transformer: A Molecule Language Model for the Generation and Latent Space Exploration of Organic Molecules (https://doi.org/10.1016/j.commatsci.2026.114549)
-First author. Computational Materials Science 269, 114549, 2026.
-Transformer-based molecular generation and controlled latent-space exploration for molecular and materials discovery.
+First author. Computational Materials Science 269, 114549. | 2026
+Developed transformer-based molecular generation and controlled latent-space exploration for molecular and materials discovery.
+
+Open Evaluation Resources
+Scientific-agent protocol traces: a matched matrix of 6,653 problems, two actor models, and four protocols (53,224 trajectories), with structured outcomes and provenance. Supports protocol comparison and trace-level diagnostics; follow each source dataset's usage restrictions.
+AIMS @ COLM 2026 workshop (https://openreview.net/forum?id=ofsAhzrSbg)  |  Dataset (https://huggingface.co/datasets/AgentsSci/scientific-agent-protocol-traces)
+
+Current Research Directions
+Study how role contracts and evaluator feedback affect answer recovery, and measure task-conditioned memory utility through paired with/without-memory evaluations using a frozen reader and controlled context.
+
+
+Research and Industry Experience
+
+Postdoctoral Researcher, Argonne National Laboratory | Jul 2025 - Present
+- Build LLM-agent evaluation harnesses for matched protocol comparisons, structured trajectories, and role-level token/call accounting; analyze critique uptake and verified answer repair.
+- Study supervised protocol routing, calibration, and task-conditioned memory with held-out tests and controlled ablations; release reproducible research code and evaluation datasets.
+AuroraGPT Post-Training Working Group participant; mentor four students.
+
+Visiting Scientist, Corteva Agriscience | Sep 2024 - Jan 2025
+Trained preference models from scratch using real experimental outcomes to ground rewards. Adapted multiple language models with Direct Preference Optimization (DPO) and Proximal Policy Optimization (PPO); incorporated scientist preferences when model judgments were uncertain.
+
+AI Resident, X, Google LLC | Sep - Dec 2023
+Developed multi-agent LLM frameworks representing stakeholders with different interests. Investigated information flow, coordination, communication, and bidding mechanisms.
+
+AI Graduate Researcher, Iowa State University | Jan 2020 - Jun 2025
+Researched molecular language modeling, multi-fidelity materials design, neural solvers for partial differential equations, and multimodal biodiversity models; co-led the BioTrove data effort.
+
+Research Methods and Implementation
+Agentic evaluation: protocol orchestration, trace-level failure analysis, memory ablations, supervised routing, confidence calibration, and inference quality-cost trade-offs.
+Post-training: experiment-grounded preference/reward modeling, reinforcement learning from human feedback (RLHF), DPO, PPO, and uncertainty-triggered scientist feedback.
+Implementation: Python, PyTorch, scikit-learn, NumPy/pandas, Hugging Face, pytest, Git; reproducible Linux/HPC experiments and structured trace/data workflows.
 
 Selected Manuscripts Under Review
 
 Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages (https://chihhsuan-yang.github.io/AAAI_Wrong-but-Useful/)
-First author. Submitted to AAAI 2027, under review. Public preprint.
+First author. Submitted to AAAI 2027, under review; public preprint. | 2026
 
 Beyond Division of Labor: How Roles Shape Feedback and Recovery in Multi-Agent Systems (https://chihhsuan-yang.github.io/AAMAS2027-AgentProtocols/)
-First and corresponding author. Submitted to AAMAS 2027, under review.
+First and corresponding author. AAMAS 2027, under review. | 2026
 
 What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory (https://chihhsuan-yang.github.io/AAMAS2027-ConditionalMemory/)
-First and corresponding author. Submitted to AAMAS 2027, under review.
+First and corresponding author. AAMAS 2027, under review. | 2026
 
 Education
-Ph.D., Mechanical Engineering - Iowa State University, 2025
+Ph.D., Mechanical Engineering, Iowa State University | 2025
 Co-major in Computer Engineering; minor in Applied Mathematics.
-M.S., Computer Science - Iowa State University, 2025
-B.S., Bioenvironmental Systems Engineering - National Taiwan University, 2019
-Full publications, project pages, code, and datasets: chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
+M.S., Computer Science, Iowa State University | 2025
+B.S., Bioenvironmental Systems Engineering, National Taiwan University | 2019

@@ -1,17 +1,21 @@
 Chih-Hsuan (Bella) Yang
-Applied AI Research and Engineering
+Agentic AI Research and Applied Machine Learning
 bellayang@anl.gov (mailto:bellayang@anl.gov)  |  chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
 GitHub (https://github.com/ChihHsuan-Yang)  |  Hugging Face (https://huggingface.co/ChihHsuan-Yang)  |  Google Scholar (https://scholar.google.com/citations?user=s7RDC3YAAAAJ)  |  AgentsSci (https://huggingface.co/AgentsSci)  |  LinkedIn (https://www.linkedin.com/in/chih-hsuan-yang-isu/)
-Postdoctoral researcher at Argonne building and evaluating large language model (LLM) agents. Expertise in reproducible harnesses, multi-agent systems, preference-based post-training, and agentic AI for Science.
+Argonne postdoctoral researcher in LLM agents, multi-agent systems, and agentic evaluation, with hands-on preference-model training, DPO/PPO, and AI for Science experience.
 
 Technical Skills
-Python, PyTorch, Hugging Face, NumPy, pandas, pytest, Git. Agent evaluation, trace analysis, preference and reward modeling, reinforcement learning from human feedback (RLHF), and cost-aware inference.
+Agents: evaluation harnesses, protocol orchestration, trace diagnostics, memory ablations.
+Post-training: preference/reward modeling, RLHF, DPO, PPO, scientist feedback.
+Implementation: Python, PyTorch, scikit-learn, NumPy/pandas, Hugging Face, Git.
 
 Research and Industry Experience
 
 Postdoctoral Researcher, Argonne National Laboratory | Jul 2025 - Present
-- Build research harnesses for matched agent evaluation, trace analysis, and reproducible code and data.
-- Mentor four students and coordinate collaborations from experimental design through papers and public releases.
+- Build reproducible agent evaluation harnesses with matched protocol runs, structured traces, and token/call accounting.
+- Analyze reviewer-to-solver critique uptake, answer repair, and task-conditioned memory utility through controlled comparisons.
+- Evaluate cost-aware protocol routing with supervised baselines, held-out tests, confidence calibration, and quality-cost metrics.
+- Release research code and evaluation data; participate in AuroraGPT's Post-Training Working Group and mentor four students.
 
 Visiting Scientist, Corteva Agriscience | Sep 2024 - Jan 2025
 - Trained preference models from scratch using experimental outcomes to ground rewards; incorporated scientist preferences when judgments were uncertain.
@@ -21,7 +25,7 @@ AI Resident, X, Google LLC | Sep - Dec 2023
 - Developed stakeholder-based multi-agent LLM frameworks; studied information flow, coordination, communication, and bidding.
 
 AI Graduate Researcher, Iowa State University | Jan 2020 - Jun 2025
-- Co-led BioTrove and developed molecular language modeling and multi-fidelity methods for scientific discovery.
+- Co-led BioTrove; researched molecular language models and multi-fidelity materials design.
 
 Selected Publications
 

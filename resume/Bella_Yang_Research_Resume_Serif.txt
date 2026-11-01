@@ -1,8 +1,8 @@
 Chih-Hsuan (Bella) Yang
-Research on Reliable and Efficient AI Agents
+LLM Agents, Agentic Evaluation and Preference Learning
 bellayang@anl.gov (mailto:bellayang@anl.gov)  |  chihhsuan-yang.github.io (https://chihhsuan-yang.github.io/)
 GitHub (https://github.com/ChihHsuan-Yang)  |  Hugging Face (https://huggingface.co/ChihHsuan-Yang)  |  Google Scholar (https://scholar.google.com/citations?user=s7RDC3YAAAAJ)  |  AgentsSci (https://huggingface.co/AgentsSci)  |  LinkedIn (https://www.linkedin.com/in/chih-hsuan-yang-isu/)
-Postdoctoral researcher at Argonne National Laboratory studying large language model (LLM) agents and multi-agent systems. Develops evaluation harnesses and controlled experiments to understand when collaboration, feedback, and memory improve reasoning, including agentic AI for Science.
+Postdoctoral researcher at Argonne National Laboratory studying multi-agent LLM systems, agentic evaluation, and AI for Science. Research combines protocol harnesses, trajectory-level diagnostics, and controlled memory studies with prior hands-on preference-model training and DPO/PPO experience.
 
 Research Contributions and Accepted Publications
 
@@ -13,7 +13,7 @@ Paper and project (https://chihhsuan-yang.github.io/NeurIPS26_Precise-but-Uncoup
 
 LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks (https://aclanthology.org/2026.findings-emnlp.1275/)
 First author. Findings of EMNLP, published. | 2026
-Compared four reasoning protocols on a 4,181-problem primary math benchmark, with robustness checks across mathematical and scientific reasoning settings and two solver families. Distinguished failure prediction from protocol-specific value; released matched outcomes, evaluation code, and a trained router.
+Compared four reasoning protocols on 4,181 math problems, with checks across scientific reasoning tasks and two solver families. Evaluated supervised routing, held-out generalization, confidence calibration, and inference quality-cost trade-offs; distinguished failure prediction from protocol-specific value.
 Paper (https://aclanthology.org/2026.findings-emnlp.1275/)  |  Code (https://github.com/ChihHsuan-Yang/EMNLP_Cost-Aware-Protocol-Routing)  |  Data and router (https://chihhsuan-yang.github.io/EMNLP_Cost-Aware-Protocol-Routing/)
 
 BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity (https://proceedings.neurips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html)
@@ -24,14 +24,20 @@ MolGen-Transformer: A Molecule Language Model for the Generation and Latent Spac
 First author. Computational Materials Science 269, 114549. | 2026
 Developed transformer-based molecular generation and controlled latent-space exploration for molecular and materials discovery.
 
+Open Evaluation Resources
+Scientific-agent protocol traces: a matched matrix of 6,653 problems, two actor models, and four protocols (53,224 trajectories), with structured outcomes and provenance. Supports protocol comparison and trace-level diagnostics; follow each source dataset's usage restrictions.
+AIMS @ COLM 2026 workshop (https://openreview.net/forum?id=ofsAhzrSbg)  |  Dataset (https://huggingface.co/datasets/AgentsSci/scientific-agent-protocol-traces)
+
 Current Research Directions
-Study how roles change feedback access and failure recovery, and measure task-conditioned memory utility using paired evaluations with and without a memory while holding other context fixed.
+Study how role contracts and evaluator feedback affect answer recovery, and measure task-conditioned memory utility through paired with/without-memory evaluations using a frozen reader and controlled context.
 
 
-Research Experience and Mentoring
+Research and Industry Experience
 
 Postdoctoral Researcher, Argonne National Laboratory | Jul 2025 - Present
-Lead research on agent collaboration, evaluation harnesses, feedback, memory, and inference efficiency. Mentor four students and coordinate research questions, controlled experiments, manuscripts, and reproducible code and data releases.
+- Build LLM-agent evaluation harnesses for matched protocol comparisons, structured trajectories, and role-level token/call accounting; analyze critique uptake and verified answer repair.
+- Study supervised protocol routing, calibration, and task-conditioned memory with held-out tests and controlled ablations; release reproducible research code and evaluation datasets.
+AuroraGPT Post-Training Working Group participant; mentor four students.
 
 Visiting Scientist, Corteva Agriscience | Sep 2024 - Jan 2025
 Trained preference models from scratch using real experimental outcomes to ground rewards. Adapted multiple language models with Direct Preference Optimization (DPO) and Proximal Policy Optimization (PPO); incorporated scientist preferences when model judgments were uncertain.
@@ -43,7 +49,9 @@ AI Graduate Researcher, Iowa State University | Jan 2020 - Jun 2025
 Researched molecular language modeling, multi-fidelity materials design, neural solvers for partial differential equations, and multimodal biodiversity models; co-led the BioTrove data effort.
 
 Research Methods and Implementation
-Matched protocol comparisons, trace analysis, benchmark design, preference and reward modeling, reinforcement learning from human feedback (RLHF), DPO, and PPO. Python, PyTorch, Hugging Face, NumPy, pandas, scikit-learn, pytest, Git, and high-performance computing experimentation.
+Agentic evaluation: protocol orchestration, trace-level failure analysis, memory ablations, supervised routing, confidence calibration, and inference quality-cost trade-offs.
+Post-training: experiment-grounded preference/reward modeling, reinforcement learning from human feedback (RLHF), DPO, PPO, and uncertainty-triggered scientist feedback.
+Implementation: Python, PyTorch, scikit-learn, NumPy/pandas, Hugging Face, pytest, Git; reproducible Linux/HPC experiments and structured trace/data workflows.
 
 Selected Manuscripts Under Review
 
